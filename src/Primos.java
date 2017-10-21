@@ -10,13 +10,13 @@ class Primos
 		int vet [] = new int [10];
 		int primo = 2;
 		vet [0] = primo;
-
+		boolean isprimo;
 		System.out.println(vet[0]);
 		for (int i = 3; i < 50; i++)
 		{
 			if (cont < 10)
 			{
-                boolean isprimo = verificar(i, vet, cont);
+                isprimo = verificar(i, vet, cont);
 				if (isprimo)
 				{
 					System.out.println(i);
