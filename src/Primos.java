@@ -1,6 +1,6 @@
 /*	Exemplo de codigo Java que calcula os 10 primeiros
  * 	numeros primos. 
-*/
+ */
 
 class Primos
 {
@@ -16,18 +16,18 @@ class Primos
 		{
 			if (cont < 10)
 			{
-                isprimo = verificar(i, vet, cont);
+				isprimo = verificar(i, vet, cont);
 				if (isprimo)
 				{
 					System.out.println(i);
 					vet[cont] = i;
 					cont++;
 				}
-				
+
 			}
 			else{break;}
 		}
-		
+
 	}
 
 	public static boolean verificar(int num, int vet[], int cont)
@@ -37,8 +37,8 @@ class Primos
 		{
 			if ((num%vet[i] == 0) && !(i == vet[i]))
 			{
-			   isprimo = false;
-			   break;
+				isprimo = false;
+				break;
 			}
 
 		}
