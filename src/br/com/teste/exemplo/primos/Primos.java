@@ -1,3 +1,4 @@
+package br.com.teste.exemplo.primos;
 /*	Exemplo de codigo Java que calcula os 10 primeiros
  * 	numeros primos. 
  */

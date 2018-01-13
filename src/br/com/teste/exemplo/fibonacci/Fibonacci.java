@@ -1,3 +1,4 @@
+package br.com.teste.exemplo.fibonacci;
 
 public class Fibonacci 
 {
