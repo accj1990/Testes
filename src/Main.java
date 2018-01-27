@@ -6,7 +6,7 @@ public class Main {
 	
 			
 			try {
-				Cliente c = new Cliente("Ana","110.203.436-30");
+				Cliente c = new Cliente(null,"110.203.436-30");
 			}catch(Exception e)
 			{
 				System.out.println(e.getMessage());
