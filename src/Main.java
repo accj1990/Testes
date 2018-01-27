@@ -1,9 +1,16 @@
+import br.com.teste.anotacoes.Cliente;
 
 public class Main {
 
 	public static void main(String[] args) {
 	
-			System.out.println("Hello World");
+			
+			try {
+				Cliente c = new Cliente("Ana","110.203.436-30");
+			}catch(Exception e)
+			{
+				System.out.println(e.getMessage());
+			}
 	}
 
 }

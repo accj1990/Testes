@@ -15,7 +15,7 @@ public class Refletion {
 		for (int i = 0; i < listMethods.length; i++)
 		{
 			methods.add(listMethods[i].getName() + "("+listMethods[i].getParameterTypes().getClass().getTypeName()+")");
-			System.out.println(listMethods[i].getName() + "("+listMethods[i].getReturnType().getSimpleName()+  ")");
+			//System.out.println(listMethods[i].getName() + "("+listMethods[i].getReturnType().getSimpleName()+  ")");
 
 		}
 		
@@ -30,7 +30,7 @@ public class Refletion {
 		for (int i = 0; i < listFields.length; i++)
 		{
 			fields.add(listFields[i].getName() + "("+listFields[i].getType().getSimpleName()+")");
-			System.out.println(listFields[i].getName() + "("+listFields[i].getName()+  ")");
+			//System.out.println(listFields[i].getName() + "("+listFields[i].getName()+  ")");
 
 		}
 		
