@@ -1,4 +1,4 @@
-import br.com.teste.anotacoes.Cliente;
+import br.com.teste.validacao.anotacoes.Cliente;
 
 public class Main {
 

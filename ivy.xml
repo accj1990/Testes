@@ -31,5 +31,13 @@
 	<!-- https://mvnrepository.com/artifact/javax.money/money-api -->
 <dependency org="javax.money" name="money-api" rev="1.0-RC3"/>
 
+
+<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-validator -->
+<dependency org="org.hibernate" name="hibernate-validator" rev="4.2.0.Final"/>
+
+<!-- https://mvnrepository.com/artifact/org.glassfish.web/javax.el -->
+<dependency org="org.glassfish.web" name="javax.el" rev="2.2.4"/>
+
+
 	
 </ivy-module>

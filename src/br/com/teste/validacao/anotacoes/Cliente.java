@@ -1,12 +1,13 @@
-package br.com.teste.anotacoes;
+package br.com.teste.validacao.anotacoes;
 
+import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
 
 
 public class Cliente {
 
-	
-	@Pattern(regexp="[[a-z-A-Z]+ \\s [a-z-A-Z]+] [\\s [a-z-A-Z]+]*", message="O sobrenome é obrigatório.")
+	@NotNull(message="O nome é obrigatório.")
+	@Pattern(regexp="[[a-z-A-Z]+ \\s [a-z-A-Z]+]+ [\\s [a-z-A-Z]+]*", message="O sobrenome é obrigatório.")
 	private String nome;
 	
 	@Pattern(regexp="\\d{3}.\\d{3}.\\d{3}-\\d{2}", message="O CPF informado é inválido.")
